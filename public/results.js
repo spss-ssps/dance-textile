@@ -34,7 +34,7 @@ function draw() {
         circle(x, y, gridSize);
     }
     clip(mask);
-    biggerCircle();
+    // biggerCircle();
 
 }
 
@@ -75,6 +75,6 @@ function biggerCircle(){
 
     stroke(0, 66, 111);
     strokeWeight(5);
-    noFill();
+    // noFill();
     circle(canvas.width/2, canvas.height/2, 1050);
 }
